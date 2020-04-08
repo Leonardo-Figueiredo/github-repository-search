@@ -41,7 +41,6 @@ export default class Repository extends Component {
         },
       }),
     ]);
-    console.log('teste2');
 
     this.setState({
       repository: repository.data,
@@ -53,7 +52,6 @@ export default class Repository extends Component {
   loadIssues = async () => {
     const { match } = this.props;
     const { filter } = this.state;
-    console.log('teste1');
 
     const repoName = decodeURIComponent(match.params.repository);
 
