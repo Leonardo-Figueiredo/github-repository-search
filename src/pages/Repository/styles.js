@@ -41,8 +41,21 @@ export const Owner = styled.div`
   }
 `;
 
+export const IssueFilter = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  select {
+    background: #fff;
+    padding: 5px;
+    border: solid #eee 1px;
+    border-radius: 8px;
+  }
+`;
+
 export const IssueList = styled.ul`
-  padding-top: 30px;
+  padding-top: 5px;
   margin-top: 30px;
   border-top: 1px solid #eee;
   list-style: none;
